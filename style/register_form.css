@@ -1,0 +1,85 @@
+body {
+    font-size: large;
+    font-family: JetBrainsMono Nerd Font;
+    background-color: rgba(226, 243, 195, 0.76);
+}
+
+.header h1 { 
+    font-size: 3em;
+    text-align: center;
+    padding-top: 1em;
+}
+.registration h2 {
+    text-align: center;
+}
+
+.form {
+    background-color: rgb(220, 245, 243);
+    margin: auto;
+    width: 50%;
+    height: 18em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border: 2px dashed black;
+    text-align: center;
+}
+.form form {
+    transform: translate(0%, 30%);
+}
+#username, #password {
+    margin-bottom: 2em;
+}
+#username_label, #password_label {
+    position: relative;
+    left: -4.5em;
+}
+.remember {
+    display: inline-block;
+    position: relative;
+    left: -1.5em;
+}
+#submit {
+    position: relative;
+    right: -2em;
+    height: 3em;
+    font-family: JetBrainsMono Nerd Font;
+}
+.form nav {
+    position: relative;
+    top: 7em;
+    font-size: 0.8em;
+}
+
+.footer {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 1em;
+    border-top: 1px solid black;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link { color: rgb(0, 102, 255); }
+a:visited { color: rgb(65, 122, 11); }
+a:hover { color: rgb(0, 102, 255); }
+
+/*  ul.navbar {
+    position: absolute;
+    top: 9.5em;
+    left: 1em;
+    width: 10.5em; 
+    padding-inline-start: 0px; /* Remove the default padding of an ul */
+/* }
+ul.navbar li {
+    list-style-type: none;
+    background-color: rgb(245, 152, 77);
+    height: 1.5em;
+    margin-bottom: 0.75em;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    border-right: 1em solid rgb(2, 84, 100);
+    font-size: 1.05em;
+} */

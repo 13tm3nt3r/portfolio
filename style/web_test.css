@@ -1,0 +1,38 @@
+body {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(216, 218, 61);
+    color: purple;
+    padding-left: 14em;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: chocolate;
+}
+ul.navbar {
+    position: absolute;
+    top: 1em;
+    left: 0.5em;
+    width: 10em;
+}
+ul.navbar li {
+    list-style-type: none;
+    background-color: white;
+    height: 1.5em;
+    margin-bottom: 0.75em;
+    padding-left: 0.5em;
+    border-right: 1em solid black;
+}
+.footer {
+    border-top: 1px solid black;
+    margin-top: 2em;
+    padding-top: 1em;
+}
