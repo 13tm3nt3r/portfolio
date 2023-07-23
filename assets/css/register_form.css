@@ -1,3 +1,8 @@
+@font-face {
+    font-family: JetBrainsMono Nerd Font;
+    src: url("../fonts/JetBrains Mono Regular Nerd Font Complete.ttf");
+}
+
 body {
     font-size: large;
     font-family: JetBrainsMono Nerd Font;
@@ -65,21 +70,3 @@ body {
 a:link { color: rgb(0, 102, 255); }
 a:visited { color: rgb(65, 122, 11); }
 a:hover { color: rgb(0, 102, 255); }
-
-/*  ul.navbar {
-    position: absolute;
-    top: 9.5em;
-    left: 1em;
-    width: 10.5em; 
-    padding-inline-start: 0px; /* Remove the default padding of an ul */
-/* }
-ul.navbar li {
-    list-style-type: none;
-    background-color: rgb(245, 152, 77);
-    height: 1.5em;
-    margin-bottom: 0.75em;
-    padding-left: 0.5em;
-    padding-top: 0.25em;
-    border-right: 1em solid rgb(2, 84, 100);
-    font-size: 1.05em;
-} */
