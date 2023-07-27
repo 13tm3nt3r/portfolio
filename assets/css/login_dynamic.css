@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Porter Sans';
+    src: url('../fonts/porter-sans-inline-block-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: JetBrainsMono Nerd Font;
+    src: url("../fonts/JetBrains Mono Regular Nerd Font Complete.ttf");
+}
+@keyframes back {
+    to {background-position: 0.5em;}
+}
+@keyframes title {
+    80% {transform: rotate(2deg);}
+}
+* {
+    font-family: JetBrainsMono Nerd Font;
+    text-align: center;
+}
+body {
+    background-color: black;
+    background-image: url(../img/scattered-forcefields.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    animation: back 10s 1s infinite alternate;
+}
+h1 {
+    font-family: 'Porter Sans';
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+h1 { animation: title 3s 2s infinite alternate; }
+form {
+    margin-top: 3em;
+}
+form input {
+    margin-bottom: 1em;
+    width: 40%;
+    padding: 1em;
+}
+#usuario { background-color:aliceblue; }
+#contrasena { background-color: rgb(224, 255, 183); }
+#submit {
+    width: 20%;
+    background-color:rgb(190, 255, 239);    
+}
+#submit:hover { background-color:rgb(139, 253, 225); }
