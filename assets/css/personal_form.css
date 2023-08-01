@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Dank Mono;
+    src: url("../fonts/Dank Mono Regular.otf");
+}
+* {
+    font-family: Dank Mono;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    border: 4px dashed white;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid white;
+}
+h3 {
+    font-size: 2em;
+}
+.section {
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+}
+input, select {
+    border-radius: 0.5em;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+    font-size: 1.05em;
+    width: 20em;
+    height: 2em;
+    color: gray;
+}
+select{
+    width: 30em;
+    height: 2.5em;
+    color: gray; 
+}
+input:focus, select:focus { color: black; }
+label {
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.customerName, .address{
+    display: flex;
+    flex-wrap: wrap;
+}
+.customerName > div, .address > .flex {
+    flex: 1 1 200px;
+}
+.no-flex{
+    display: block;
+    width: 100%;
+}
+#address, #address2 {
+    width: 70%;
+}
+#submit {
+    display: flex;
+    margin: auto;
+    margin-top: 2em;
+    width: 5em;
+    height: 3em;
+    font-size: 1.25em;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: darkorange;
+}
+#submit:hover { 
+    background-color: white;
+    color: darkorange;
+}
